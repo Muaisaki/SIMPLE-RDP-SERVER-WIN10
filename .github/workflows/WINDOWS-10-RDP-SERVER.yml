@@ -15,7 +15,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/main/loop.bat -OutFile loop.bat
     - name: DOWNLOAD WALLPAPER HD
       run: |
     - name: MENGEXTRAK FILE NGROK
