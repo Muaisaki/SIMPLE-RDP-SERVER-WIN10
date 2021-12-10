@@ -12,7 +12,7 @@ jobs:
     - name: DOWNLOAD NGROK ACCESS
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/MarcelCyan/FreeRDP/master/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/main/loop.bat -OutFile loop.bat
